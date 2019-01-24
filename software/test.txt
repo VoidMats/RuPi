@@ -1,0 +1,12 @@
+func TEST(int _a) {
+    if (_a == 1) {
+        print(_a);
+    }
+    else {
+        int _c = _a-1;
+        TEST(_c)
+    };
+
+};
+
+int _b = TEST(5);

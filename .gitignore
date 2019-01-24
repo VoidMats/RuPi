@@ -1,0 +1,11 @@
+**/dokument/*.aux
+**/dokument/*.pdf
+**/dokument/*.toc
+**/dokument/*.out
+**/dokument/*.log
+**/dokument/*.fdb_latexmk
+**/software/doc/*.*
+**/software/doc
+**/software/.yardoc
+**/software/.yardoc/*.*
+**/wrapper
