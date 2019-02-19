@@ -9,18 +9,18 @@ on the GPIO port of a Raspberry Pi. The language is very similar to C++ and is f
 ## YARD
 To print the yard documentation move the folder where all the Ruby scripts are stored
 and write in the terminal.
-'''bash
+```bash
 $ yardoc *.*
-'''
+```
 To install YARD. Please type.
-'''bash
+```bash
 $ gem install yard
-'''
+```
 
 ## Requirements
 Please see complete installation manual in the RuPi documentation. But, ones the Raspberry
 has access to Internet following could be typed in the terminal:
-'''bash
+```bash
 $ sudo apt-get install ruby
 
 $ sudo apt-get install ruby-dev
@@ -28,7 +28,7 @@ $ sudo apt-get install ruby-dev
 $ sudo apt-get install ruby-bundler
 
 $ sudo gem install wiringpi2
-'''
+```
 
 ## Connect components to a Raspberry
 There is good instructions on the [Raspberry Community Hompage](https://www.raspberrypi.org/documentation/usage/gpio/). Shortly:
@@ -41,6 +41,6 @@ Input signal: To create a Pull-down connection please add a 10k Ohm resistor to 
 RuPi could be used in terminal mode or reading from a file.
 RuPi code could be type into any textfile. To compile RuPi please type
 
-'''bash
+```bash
 $ ruby RupiRun.rb [option] [filename]
-'''
+```
